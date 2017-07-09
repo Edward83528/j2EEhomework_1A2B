@@ -1,0 +1,41 @@
+.css {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	word-spacing: 12em;
+}
+
+.a1 {
+	font-size: 12px;
+	padding: 5px;
+}
+
+.a2 {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+A.link-a3:visited {
+	FONT-SIZE: 12px;
+	COLOR: #333333;
+	TEXT-DECORATION: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: 1pt;
+} 
+
+A.link-a3:hover {
+	FONT-SIZE: 12px;
+	COLOR: #333333;
+	TEXT-DECORATION: underline;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: 1pt;
+} 
+
+A.link-a3:link {
+	FONT-SIZE: 12px;
+	COLOR: #333333;
+	TEXT-DECORATION: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: 1pt;
+}
+

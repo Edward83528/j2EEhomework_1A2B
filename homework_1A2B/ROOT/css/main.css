@@ -1,0 +1,327 @@
+* {margin:0; padding:0; outline:none}
+body {font-family:92% 微軟正黑體, Verdana,Arial, Helvetica, sans-serif; margin:7px; background:#fff repeat-x; color:#091f30;}
+
+.sortable {width:97%; align:center; border-left:1px solid #c6d5e1; border-top:1px solid #c6d5e1; border-bottom:none; margin:3px auto 3px}
+.sortable th {background:url(/img/header-bg.gif); color:#000033; border:1px solid #fff; border-right:none}
+.sortable th h3 {font-size:85%; padding:6px 8px 8px}
+/*.sortable th h3 {font-size:85%; color:#fff; padding:6px 8px 8px}*/
+.sortable td {font-size:90%; padding:4px 6px 6px; border-bottom:1px solid #c6d5e1; border-right:1px solid #c6d5e1}
+.sortable .head h3 {background:url(/img/sort.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.sortable .desc, .sortable .asc {background:url(/img/header-selected-bg.gif)}
+.sortable .desc h3 {background:url(/img/desc.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.sortable .asc h3 {background:url(/img/asc.gif) 7px  center no-repeat; cursor:pointer; padding-left:18px}
+.sortable .head:hover, .sortable .desc:hover, .sortable .asc:hover {color:#fff}
+/*.sortable .head:hover, .sortable .desc:hover, .sortable .asc:hover {color:#0000FF}*/
+.asc:visited {color:#fff}
+.sortable .evenrow td {background:#fff}
+.sortable .oddrow td {background:#ecf2f6}
+.sortable td.evenselected {background:#FFF4FF}
+.sortable td.oddselected {background:#FFF4FF}
+
+#controls {width:95%; margin:0 auto; height:20px}
+#perpage {float:left; width:30%; padding-left:10px}
+#perpage select {float:left;}
+#perpage span {float:left; margin:2px 0 0 5px}
+#navigation {float:left; width:30%; text-align:center}
+#navigation img {cursor:pointer}
+#text {float:left; width:18%; text-align:right; margin-top:2px}
+
+/* 新增  */
+h2{font-size:16px; color:#FF9E31;}
+
+.T10 {
+	font-size: 10pt;
+	font-family: 微軟正黑體, Verdana, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	color: #555555;
+	letter-spacing: 2px;
+}
+
+.T11b {
+	font-family: 微軟正黑體, Verdana, Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	color: #333333;
+	letter-spacing: 2px;
+}
+
+.T12red {
+	padding-right: 5px;
+	line-height: 6px;
+	color: #FF0033;
+	font-weight: normal;
+}
+
+.T12b {
+	font-family: 微軟正黑體, Georgia, "Times New Roman", Times, serif;
+	line-height: 18px;
+	color: #0869B0;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.input { font-family: 13pt "微軟正黑體, Verdana,Arial, Helvetica, sans-serif";} 
+
+/*圖片外框樣式*/
+.imagebox{
+	float: center;
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	margin: 1px;
+}
+
+/* 按鈕  */
+input.btn {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #028ddf;
+	border-right-color: #028ddf;
+	border-bottom-color: #04649d;
+	border-left-color: #028ddf;
+	background-image: url(/img/btnBG.jpg);
+	padding-top: 1px;
+	padding-right: 0em;
+	padding-bottom: 0px;
+	padding-left: 0em;
+	font-family: 微軟正黑體, Geneva, Arial, Helvetica, "新細明體";
+	font-size: 11pt;
+	*font-size: 9pt;
+	color: #000000;
+	cursor: hand;
+	margin-top: 0px;
+	margin-right: 8px;
+	*margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+  
+input.btn:link {
+	color:#000000;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #128bd3;
+	border-right-color: #128bd3;
+	border-bottom-color: #128bd3;
+	border-left-color: #128bd3;
+	background-image: url(/img/btnBG2.jpg);
+	cursor: hand;
+	margin-top: 0px;
+	margin-right: 8px;
+	*margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+ 
+input.btn:visited {
+	color:#000000;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #128bd3;
+	border-right-color: #128bd3;
+	border-bottom-color: #128bd3;
+	border-left-color: #128bd3;
+	background-image: url(/img/btnBG2.jpg);
+	cursor: hand;
+	margin-top: 0px;
+	margin-right: 8px;
+	*margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+input.btn:hover {
+	color:#000000;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #128bd3;
+	border-right-color: #128bd3;
+	border-bottom-color: #128bd3;
+	border-left-color: #128bd3;
+	background-image: url(/img/btnBG2.jpg);
+	cursor: hand;
+	margin-top: 0px;
+	margin-right: 8px;
+	*margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+/* 按鈕(字紅)  */
+input.btnred {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #028ddf;
+	border-right-color: #028ddf;
+	border-bottom-color: #04649d;
+	border-left-color: #028ddf;
+	background-image: url(/img//btnBG.jpg);
+	padding-top: 1px;
+	padding-right: 1px;
+	padding-bottom: 0px;
+	padding-left: 0em;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	*font-size: 9pt;
+	color: #FF0033;
+	margin-top: 0px;
+	margin-right: 8px;
+	*margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+  
+input.btnred:link {
+	color:#FF0033;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #128bd3;
+	border-right-color: #128bd3;
+	border-bottom-color: #128bd3;
+	border-left-color: #128bd3;
+	background-image: url(/img/btnBG2.jpg);
+	margin-top: 0px;
+	margin-right: 8px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+ 
+input.btnred:visited {
+	color:#FF0033;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #128bd3;
+	border-right-color: #128bd3;
+	border-bottom-color: #128bd3;
+	border-left-color: #128bd3;
+	background-image: url(/img/btnBG2.jpg);
+	margin-top: 0px;
+	margin-right: 8px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+input.btnred:hover {
+	color:#FF0033;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #128bd3;
+	border-right-color: #128bd3;
+	border-bottom-color: #128bd3;
+	border-left-color: #128bd3;
+	background-image: url(/img/btnBG2.jpg);
+	margin-top: 0px;
+	margin-right: 8px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.table02 { 
+	width:50%;
+	border-top-width: 3px;
+	border-right-width: 1px;
+	border-bottom-width: 3px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #005DBE;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #005DBE;
+	border-left-color: #CCCCCC;
+}
+
+div#title{
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 2px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	margin-bottom:4px;
+}
+
+
+A.link-a:link {
+	color: #333333;
+	text-decoration: none;
+	letter-spacing: 1pt;
+}
+A.link-a:hover {
+	color: #333333;
+	text-decoration: underline;
+	letter-spacing: 1pt;
+} 
+A.link-a:visited {
+	color: #333333;
+	letter-spacing: 1pt;
+}
+
+.line {
+	border: 1px solid #FFFFFF;
+	scrollbar-face-color:#FFFFFF;
+	scrollbar-highlight-color:#FFFFFF;
+	scrollbar-3dlight-color:#FFFFFF;
+	scrollbar-darkshadow-color:#FFFFFF;
+	scrollbar-shadow-color:#FFFFFF;
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-track-color:#FFFFFF;
+	text-align: left;
+}
